@@ -1,0 +1,53 @@
+body {
+    font-family: 'Noto Sans','Times New Roman', Times, serif;
+    color: #154354;
+    background-color: #F8F7F3;
+}
+* {
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    display: block;
+}
+h1 {
+    font-size: 64px;
+    font-weight: 500;
+    letter-spacing: 3.2px;
+}
+h2 {
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 160%;
+}
+h3 {
+    font-size: 36px;
+    color: #FF812F;
+    letter-spacing: 1.8px;
+}
+h4 {
+    font-size: 32px;
+    font-weight: 500;
+}
+h5 {
+    font-size: 24px;
+    font-weight: 500;
+    letter-spacing: 0.48px;
+}
+h6 {
+    font-size: 22px;
+    font-weight: 500;
+}
+.sectionTitle {
+    display: inline-block;
+    font-size: 18px;
+    color: #FF812F;
+    font-weight: 700;
+    letter-spacing: 0.9px;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #FF812F;
+    margin-bottom: 40px;
+}
+.primaryColor-bg {
+    background-color: #FF812F;
+}
