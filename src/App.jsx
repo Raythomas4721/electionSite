@@ -32,30 +32,30 @@ function App() {
         <div className="col-md-6">
           <div className="logoBar d-flex align-items-center">
             <a href="#" className="logo">
-              <img src="./src/assets/images/miaoLogo.svg" alt="Miao logo " />
+              <img src="/images/miaoLogo.svg" alt="Miao logo " />
             </a>
             <ul className="d-flex social">
               <li>
                 <a href="#">
-                  <img src="./src/assets/images/line.svg" alt="Line" />
+                  <img src="/images/line.svg" alt="Line" />
                 </a>
               </li>
               <li>
                 <a href="#">
                   <img
-                    src="./src/assets/images/instagram.svg"
+                    src="/images/instagram.svg"
                     alt="Instagram"
                   />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./src/assets/images/facebook.svg" alt="Facebook" />
+                  <img src="/images/facebook.svg" alt="Facebook" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./src/assets/images/youtube.svg" alt="Youtube" />
+                  <img src="/images/youtube.svg" alt="Youtube" />
                 </a>
               </li>
             </ul>
@@ -85,7 +85,7 @@ function App() {
         <div className="col-md-6">
           <div className="candidatePhoto">
             <img
-              src="./src/assets/images/Man trying to work from home.png"
+              src="/images/Man trying to work from home.png"
               alt="Miao li han"
             />
           </div>
@@ -161,7 +161,7 @@ function App() {
           >
             <SwiperSlide>
               <div className="swiper1">
-                <img src="./src/assets/images/Rectangle 30.png" alt="" />
+                <img src="/images/Rectangle 30.png" alt="" />
                 <span>2023 / 12 / 26</span>
                 <h4>參與台北寵物論壇，爭取貓咪友善環境</h4>
                 <p>
@@ -172,7 +172,7 @@ function App() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper1">
-                <img src="./src/assets/images/Rectangle 29.png" alt="" />
+                <img src="/images/Rectangle 29.png" alt="" />
                 <span>2023 / 12 / 24</span>
                 <h4>掃街模式開啟！帶著你的貓耳，來和我一起走！</h4>
                 <p>
@@ -182,7 +182,7 @@ function App() {
             </SwiperSlide>
             <SwiperSlide>
               <div className="swiper1">
-                <img src="./src/assets/images/Rectangle 31.png" alt="" />
+                <img src="/images/Rectangle 31.png" alt="" />
                 <span>2023 / 12 / 20</span>
                 <h4>收容所模特兒大比拼！</h4>
                 <p>
@@ -220,7 +220,7 @@ function App() {
                 data-aos="fade-left"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
-                src="./src/assets/images/Rectangle 3.png"
+                src="/images/Rectangle 3.png"
                 alt="Page 1"
               />
             )}
@@ -229,7 +229,7 @@ function App() {
                 data-aos="fade-left"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
-                src="./src/assets/images/Rectangle 46.png"
+                src="/images/Rectangle 46.png"
                 alt="Page 2"
               />
             )}
@@ -238,7 +238,7 @@ function App() {
                 data-aos="fade-left"
                 data-aos-easing="linear"
                 data-aos-duration="1000"
-                src="./src/assets/images/Rectangle 47.png"
+                src="/images/Rectangle 47.png"
                 alt="Page 3"
               />
             )}
@@ -350,7 +350,7 @@ function App() {
                   <h5 className="card-title">喵星人之友</h5>
                   <span className="card-text">已有 9957 人贊助</span>
                   <img
-                    src="./src/assets/images/donateFriend.png"
+                    src="/images/donateFriend.png"
                     className="card-img-top"
                     alt=""
                   />
@@ -370,7 +370,7 @@ function App() {
                   <h5 className="card-title">喵星大使</h5>
                   <span className="card-text">已有 2000 人贊助</span>
                   <img
-                    src="./src/assets/images/donateAmbassador.png"
+                    src="/images/donateAmbassador.png"
                     className="card-img-top"
                     alt=""
                   />
@@ -390,7 +390,7 @@ function App() {
                   <h5 className="card-title">喵星傳奇</h5>
                   <span className="card-text">已有 999 人贊助</span>
                   <img
-                    src="./src/assets/images/donateLegend.png"
+                    src="/images/donateLegend.png"
                     className="card-img-top"
                     alt=""
                   />
@@ -427,7 +427,7 @@ function App() {
       <div id="contact" className="contact">
         <div className="row">
           <div className="col-md-6">
-            <img src="./src/assets/images/Rectangle 45.png" alt="contact cat" />
+            <img src="/images/Rectangle 45.png" alt="contact cat" />
           </div>
           <div className="col-md-6 d-flex align-items-center justify-content-center">
             <div className="contactRight d-flex flex-column align-items-center justify-content-center text-center">
@@ -467,7 +467,7 @@ function App() {
       <div className="footer d-flex align-items-center justify-content-center">
         <div className="footerContain">
           <div className="topFooter d-flex align-items-center ">
-            <img src="./src/assets/images/Miao.png" alt="Miao logo" />
+            <img src="/images/Miao.png" alt="Miao logo" />
             <h3>為喵星人，護台灣！ </h3>
           </div>
           <div className="line"></div>
@@ -475,25 +475,25 @@ function App() {
             <ul className="d-flex social justify-content-center mb-4">
               <li>
                 <a href="#">
-                  <img src="./src/assets/images/line.svg" alt="Line" />
+                  <img src="/images/line.svg" alt="Line" />
                 </a>
               </li>
               <li>
                 <a href="#">
                   <img
-                    src="./src/assets/images/instagram.svg"
+                    src="/images/instagram.svg"
                     alt="Instagram"
                   />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./src/assets/images/facebook.svg" alt="Facebook" />
+                  <img src="/images/facebook.svg" alt="Facebook" />
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="./src/assets/images/youtube.svg" alt="Youtube" />
+                  <img src="/images/youtube.svg" alt="Youtube" />
                 </a>
               </li>
             </ul>

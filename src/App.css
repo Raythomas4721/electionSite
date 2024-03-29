@@ -20,36 +20,6 @@
   font-weight: bold;
   color: #154354;
   position: relative;
-  animation: neon 0.8s linear infinite;
-  animation-play-state: paused;
-}
-.navbar a:hover {
-  animation-play-state: running;
-}
-@keyframes neon {
-  0% {
-    transform: translateY(0%);
-  }
-  50% {
-    transform: translateY(-100%);
-    opacity: 0;
-  }
-  100% {
-    transform: translateY(0%);
-    opacity: 1;
-  }
-}
-.navbar a:not(:hover) {
-  animation: neon-revert 1s linear infinite;
-}
-
-@keyframes neon-revert {
-  0% {
-    transform: translateY(0%);
-  }
-  100% {
-    transform: translateY(0%);
-  }
 }
 .col-r0 {
   padding-right: 0;
@@ -95,7 +65,7 @@
 }
 /* politics */
 .politics {
-  background-image: url("./assets/images/Concept.png");
+  background-image: url("/images/Concept.png");
   background-position: center center;
   background-size: cover;
   object-fit: cover;
