@@ -3,10 +3,11 @@
   padding: 25px 50px;
 }
 .logo {
-  padding-right: 30px;
+  padding-right: 60px;
 }
-.social {
-  gap: 20px;
+.social a i {
+  font-size: 28px;
+  color: #154354;
 }
 .navbar {
   padding: 25px 50px;

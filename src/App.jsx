@@ -32,30 +32,27 @@ function App() {
         <div className="col-md-6">
           <div className="logoBar d-flex align-items-center">
             <a href="#" className="logo">
-              <img src="/images/miaoLogo.svg" alt="Miao logo " />
+              <img src="/images/miaoLogo.svg" alt="Miao logo" />
             </a>
-            <ul className="d-flex social">
+            <ul className="d-flex social gap-4">
               <li>
                 <a href="#">
-                  <img src="/images/line.svg" alt="Line" />
+                  <i className="bi bi-line"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img
-                    src="/images/instagram.svg"
-                    alt="Instagram"
-                  />
+                  <i className="bi bi-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/images/facebook.svg" alt="Facebook" />
+                  <i className="bi bi-facebook"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/images/youtube.svg" alt="Youtube" />
+                  <i className="bi bi-youtube"></i>
                 </a>
               </li>
             </ul>
@@ -93,7 +90,7 @@ function App() {
         <div className="col-md-6 d-flex align-items-center justify-content-center">
           <div className="mainContent">
             <h3 className="mb-2">喵立翰（Miao Li-Han）</h3>
-            <h1 className="mb-2">台灣的明天, 喵先鋪路</h1>
+            <h1 className="mb-3">台灣的明天, 喵先鋪路</h1>
             <h5>護航台灣的幸福經濟, 從照顧每一隻貓咪開始!</h5>
             <div className="mainBtn d-flex gap-5">
               <button
@@ -427,32 +424,56 @@ function App() {
       <div id="contact" className="contact">
         <div className="row">
           <div className="col-md-6">
-            <img src="/images/Rectangle 45.png" alt="contact cat" />
+            <img src="/images/Rectangle 45.png" alt="contact us" />
           </div>
           <div className="col-md-6 d-flex align-items-center justify-content-center">
             <div className="contactRight d-flex flex-column align-items-center justify-content-center text-center">
               <h2 className="sectionTitle ">聯繫喵</h2>
-              <h3 className="mb-2">您的聲音，我們的行動！</h3>
-              <p className="mb-5">
+              <h3 className="mb-3">您的聲音，我們的行動！</h3>
+              <p className="mb-5 px-5">
                 親愛的鄉親，每一位市民的意見都是我們社區前進的原動力。無論大小事，我都誠摯希望聽到您的建議。
                 分享您的想法，一同為我們的未來打造更美好！
               </p>
               <form
                 action="#"
                 id="contactForm"
-                className="d-flex flex-column align-items-center justify-content-center"
+                className="d-flex flex-column w-50"
               >
-                <input type="text" placeholder="姓名" className="w-100 mb-4" />
-                <input type="tel" placeholder="手機" className="w-100 mb-4" />
-                <input type="email" placeholder="信箱" className="w-100 mb-4" />
-                <textarea
-                  name=""
-                  id="message"
-                  cols="30"
-                  rows="10"
-                  placeholder="我想說..."
-                  className="w-100 mb-4"
-                ></textarea>
+                <div className="form-floating mb-4 w-100">
+                  <input
+                    type="text"
+                    placeholder="姓名"
+                    className="form-control"
+                  />
+                  <label htmlFor="floatingName">姓名</label>
+                </div>
+                <div className="form-floating mb-4 w-100">
+                  <input
+                    type="tel"
+                    placeholder="手機"
+                    className="form-control"
+                  />
+                  <label htmlFor="floatingPhone">手機</label>
+                </div>
+                <div className="form-floating mb-4 w-100">
+                  <input
+                    type="email"
+                    placeholder="信箱"
+                    className="form-control"
+                  />
+                  <label htmlFor="floatingEmail">信箱</label>
+                </div>
+                <div className="form-floating mb-4 w-100">
+                  <textarea
+                    name=""
+                    id="message"
+                    cols="30"
+                    rows="10"
+                    placeholder="我想說..."
+                    className="form-control h-100"
+                  ></textarea>
+                  <label htmlFor="message">我想說...</label>
+                </div>
                 <button
                   type="submit"
                   className="btn btn-primary toPolicy primaryColor-bg"
@@ -472,32 +493,29 @@ function App() {
           </div>
           <div className="line"></div>
           <div className="bottomFooter">
-            <ul className="d-flex social justify-content-center mb-4">
+            <ul className="d-flex social justify-content-center gap-4 mb-4">
               <li>
                 <a href="#">
-                  <img src="/images/line.svg" alt="Line" />
+                  <i className="bi bi-line"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img
-                    src="/images/instagram.svg"
-                    alt="Instagram"
-                  />
+                  <i className="bi bi-instagram"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/images/facebook.svg" alt="Facebook" />
+                  <i className="bi bi-facebook"></i>
                 </a>
               </li>
               <li>
                 <a href="#">
-                  <img src="/images/youtube.svg" alt="Youtube" />
+                  <i className="bi bi-youtube"></i>
                 </a>
               </li>
             </ul>
-            <ul className="footerInfo d-flex flex-column align-items-center justify-content-center mt-4  mb-5">
+            <ul className="footerInfo d-flex flex-column align-items-center justify-content-center gap-3 mt-4  mb-5">
               <li>
                 <a href="#">(02) 888-5678</a>
               </li>
